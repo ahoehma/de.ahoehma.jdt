@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2011 Andreas Höhmann <andreas.hoehmann@gmx.de>
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
 package de.ahoehma.jdt.quickfix;
 
 import org.eclipse.core.runtime.CoreException;
@@ -16,7 +23,7 @@ import org.eclipse.text.edits.TextEdit;
 import org.eclipse.ui.ISharedImages;
 
 /**
- * @author Andreas H�hmann <andreas.hoehmann@gmx.de>
+ * @author Andreas Höhmann <andreas.hoehmann@gmx.de>
  * @since 1.0.0
  */
 public class DeleteNodeCorrectionProposal extends CUCorrectionProposal {
